@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Santh Control System</title>
+	<!-- ====================================================== -->
+	<!-- Script dibawah berfungsi seperti #include di dalam c++ -->
+	<!-- ====================================================== -->
+	<link rel="stylesheet" type="text/css" href="loginstyle.css">
+	<script type="text/javascript" src="main.js"></script>
+</head>
+<body>
+
+	<!--<h1><del>Santh Control System</del></h1>-->
+
+	<div class="kotak_login">
+		<p class="tulisan_login">Login First</p>
+
+		<form onsubmit="return Login();" action="main.html" method="post">
+			<label>User Name</label>
+			<input type="text" name="username" id="user" class="form_login" placeholder="Username ..">
+
+			<label>Password</label>
+			<input type="password" name="password" id="pass" class="form_login" placeholder="Password ..">
+
+			<input type="submit" class="tombol_login" value="LOGIN" />
+		</form>
+	</div>
+</body>
+</html>
